@@ -32,14 +32,7 @@ page("/dashboard/:id", detailsView);
 page("/create", createView);
 page("/edit/:id", editView);
 
-// page("/login", loginView);
-// page("/register", registerView);
-// page("/motorcycles", dashboardView);
-// page("/create", createView);
-// page("/motorcycles/:id", detailsView);
-// page("/edit/:id", editView);
-// page("/search", searchView);
-// page.start();
+
 page.start();
 
 document.getElementById("logoutLink").addEventListener("click", () => {
